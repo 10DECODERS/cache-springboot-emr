@@ -1,0 +1,25 @@
+plugins {
+	id 'org.springframework.boot' version '2.1.7.RELEASE'
+	id 'java'
+	id 'maven'
+}
+
+apply plugin: 'io.spring.dependency-management'
+
+group = 'com.practitioner'
+version = '0.0.1-SNAPSHOT'
+sourceCompatibility = '1.8'
+
+repositories {
+	mavenCentral()
+	mavenLocal()
+}
+
+dependencies {
+	implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
+	implementation 'org.springframework.boot:spring-boot-starter-web'
+	implementation 'com.intersystem:cache-jdbc:2.0.0'
+	implementation 'com.intersys:cache-db:2.0.0'
+	runtimeOnly 'mysql:mysql-connector-java'
+	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+}
