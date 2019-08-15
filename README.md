@@ -7,6 +7,7 @@ Simple EMR application with InterSystems Caché DB using spring boot and spring 
 ### Reference Documentation
 For further reference, please consider the following sections:
 
+* [Official Caché JDBC](https://cedocs.intersystems.com/latest/csp/docbook/DocBook.UI.Page.cls?KEY=BGJD_connecting)
 * [Official Gradle documentation](https://docs.gradle.org)
 * [Spring Data JPA](https://docs.spring.io/spring-boot/docs/{bootVersion}/reference/htmlsingle/#boot-features-jpa-and-spring-data)
 * [Spring Web Starter](https://docs.spring.io/spring-boot/docs/{bootVersion}/reference/htmlsingle/#boot-features-developing-web-applications)
