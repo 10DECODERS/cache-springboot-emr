@@ -20,6 +20,5 @@ dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-web'
 	implementation 'com.intersystem:cache-jdbc:2.0.0'
 	implementation 'com.intersys:cache-db:2.0.0'
-	runtimeOnly 'mysql:mysql-connector-java'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 }
